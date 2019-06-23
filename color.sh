@@ -13,18 +13,18 @@ echo -e "\e[1;37m This is white text \e[0m"
 echo  ------------------------------------
 
 
-echo -e "\e[1;40 ===================== \e[0"
+echo -e "\e[1;40m     background           \e[0m"
 
-echo -e "\e[1;41 ===================== \e[0"
+echo -e "\e[1;41m     background           \e[0m"
 
-echo -e "\e[1;42 ===================== \e[0"
+echo -e "\e[1;42m     background           \e[0m"
 
-echo -e "\e[1;43 ===================== \e[0"
+echo -e "\e[1;43m     background           \e[0m"
 
-echo -e "\e[1;44 ===================== \e[0"
+echo -e "\e[1;44m     background           \e[0m"
 
-echo -e "\e[1;45 ===================== \e[0"
+echo -e "\e[1;45m     background           \e[0m"
 
-echo -e "\e[1;46 ===================== \e[0"
+echo -e "\e[1;46m     background           \e[0m"
 
-echo -e "\e[1;47 ===================== \e[0"
+echo -e "\e[1;47m     background           \e[0m"
