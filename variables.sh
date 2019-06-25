@@ -14,3 +14,9 @@ echo "Printing contents in PATH variable "
 
 echo $PATH | tr ':' '\n'
 
+echo "$fruit is stored in var name fruit"
+echo "$fruit is made of ${#fruit} characters" 
+echo '$fruit '"prints itself" 
+
+
+
