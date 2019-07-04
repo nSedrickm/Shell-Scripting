@@ -1,13 +1,21 @@
 #!/bin/bash
-
+#makinga terminal screen capture
 echo "enter exit after script starts"
-echo "Run terminalreplay.sh to see replay"
-script -t 2> timing.log -a output.session ;
+echo -------------------------------
+script -t 2> timing.log -a output.session
+echo pwd
 pwd;
+echo ls -l
 ls -l;
+echo git status 
 git status;
-git add .;
+echo git add .
+git add .
+echo uname -a;
 uname -a;
+echo whoami
 echo user $(whoami);
-exit 
+exit
 
+#replaying events 
+scriptreplay timing.log output.session;
